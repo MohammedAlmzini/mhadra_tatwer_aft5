@@ -18,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
         ImageView img=findViewById(R.id.img);
 
         //هذه الطريقة الأولى
-//        Picasso.get()
-//                .load("https://www.aljazeera.net/wp-content/uploads/2022/03/GettyImages-1308668145.jpg")
-//                .error(R.drawable.ic_launcher_background)
-//                .into(img);
+        Picasso.get()
+                .load("https://www.aljazeera.net/wp-content/uploads/2022/03/GettyImages-1308668145.jpg")
+                .error(R.drawable.ic_launcher_background)
+                .into(img);
 
 
         //هذه الطريقة الثانية فيها خصائص أكثر
